@@ -1,0 +1,17 @@
+ul,
+li {
+  list-style: none;
+}
+
+.statistics {
+  font-size: 15px;
+  text-align: left;
+  margin-left: 60px;
+  font-weight: 600;
+}
+
+.statisticsList {
+  text-align: left;
+  font-size: 20px;
+  margin-left: -30px;
+}

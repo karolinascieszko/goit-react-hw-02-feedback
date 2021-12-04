@@ -1,11 +1,10 @@
-
 import './App.css';
-import Feedback from './components/Feedback/Feedback'
+import Statistics from './components/Statistics/Statistics'
 
 function App() {
   return (
     <div className="App">
-      <Feedback />
+      <Statistics good={0} neutral={0} bad={0} total={0} positivePercentage={0} />
 
     </div>
   );

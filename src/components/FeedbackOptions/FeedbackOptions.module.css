@@ -1,0 +1,28 @@
+ul,
+li {
+  list-style: none;
+}
+
+.btnList {
+  display: block;
+  text-align: left;
+  margin-left: -40px;
+  margin-top: 30px;
+  margin-bottom: 30px;
+}
+
+.btnFeedback {
+  font-size: 15px;
+  margin-right: 10px;
+  background-color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  text-transform: capitalize;
+  font-weight: 540;
+  border-color: #708090;
+  box-shadow: 1px 2px 5px #708090;
+}
+
+.btnFeedback:focus {
+  background-color: #1e90ff;
+}
